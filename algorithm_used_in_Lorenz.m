@@ -254,4 +254,5 @@ subplot(1,3,3);
 plot3(best_pred(1,:), best_pred(2,:), best_pred(3,:), 'r-', 'LineWidth', 1.2);
 title('最优Wout预测的相空间'); xlabel('x'); ylabel('y'); zlabel('z'); grid on;
 
+
 sgtitle('3D相空间对比（动态同步性验证）');
